@@ -806,11 +806,12 @@ position: fixed;
 .modal__half{
 width: 100%;
 }
-}
-
 .shape{
     opacity: 10%;
 }
+}
+
+
 /* small phones  */
 @media (max-width: 698px){
     .title{
