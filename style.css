@@ -212,6 +212,10 @@ LANDING PAGE
     
 }
 
+.header__content{
+z-index: 77;
+}
+
 .header__para {
 line-height: 2;
 font-size: 24px;
@@ -676,6 +680,7 @@ footer{
 background-color: #d68a714b;
     padding: 6% 0%;
     position: relative;
+    z-index: 1;
 }
 
 .footer__row{
@@ -720,6 +725,7 @@ first column 5vw
 */
 .shape{
 position: fixed;
+z-index: 0;
 
 }
 .shape--0{
