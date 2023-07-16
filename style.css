@@ -3,9 +3,13 @@
 
   html{
     scroll-behavior: smooth;
-
+zoom: 90%;
   }
 
+  #my{
+    zoom: 90%;
+    }
+    
 * {
 margin: 0;
 padding: 0;
@@ -209,11 +213,13 @@ LANDING PAGE
     width: 100%;
     max-width: 1000px;
     padding: 0 30px;
+    z-index: 1;
     
 }
 
 .header__content{
-z-index: 77;
+    z-index: 77;
+
 }
 
 .header__para {
