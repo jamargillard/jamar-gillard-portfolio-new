@@ -627,6 +627,7 @@ PROJECTS
 .project__img{
     width: 100%;
     transition: all ease 500ms;
+    scale: 1.1;
 
 }
 
@@ -821,7 +822,7 @@ z-index: 0;
     .wave{
         font-size: larger;
     }
-    
+
     .title{
         font-size: 80px;
     }
@@ -885,7 +886,7 @@ display:none;
  }
 
  .about-picture--container{
-    bottom: 7rem;
+    bottom: 8.5rem;
     left: 16rem;
     scale: .65;
     padding: 5px;
