@@ -331,14 +331,32 @@ transform: translateX(-50%);
         right: 32px;
         top:  204px;
   }
+
+  .about-picture--container{
+      position: fixed;
+bottom: 13.3rem;
+left: 38rem;
+max-width: 100%;
+width: auto;
+margin: 8px;
+padding: 4px;
+  }
   .about-me__picture--mask {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
-    margin-bottom: 28px;
+    scale: .60;
     animation: animate-profile-picture 800ms 200ms backwards;
+  }
+  .about-me__picture {
+    width: 100%;
+  
+    /* Improving my own picture */
+    transform: scale(1.5);
+    padding-top: 8px;
+    padding-right: 8px;
   }
   
   @keyframes animate-profile-picture {
@@ -687,6 +705,7 @@ background-color: #d68a714b;
     padding: 6% 0%;
     position: relative;
     z-index: 1;
+    z-index: 1;
 }
 
 .footer__row{
@@ -821,6 +840,12 @@ width: 100%;
 .shape{
     opacity: 10%;
 }
+
+.about-picture--container{
+    left: 30rem;
+}
+
+
 }
 
 
@@ -853,4 +878,13 @@ display:none;
  .modal__half{
     padding: 40px;
  }
+
+ .about-picture--container{
+    bottom: 22rem;
+    left: 4rem;
+    scale: .65;
+    padding: 5px;
+    align-items: center;
+  
+}
 }

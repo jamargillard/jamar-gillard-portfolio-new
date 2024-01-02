@@ -19,7 +19,7 @@
 </script>
 </head>
 <body>
-<section id="landing-page"onmousemove= 'moveBackground(event)'>
+<section id="landing-page"onmousemove= 'moveBackground(event)' onmousemove= 'moveBackground2(event)' >
 <nav>
     <figure>
 <img src="./assets/assets/WEB LOGO.png" alt="" ID="jglogo">
@@ -34,7 +34,7 @@
  
     </li>
     <li class="nav__link">
-        <a href="" class="
+        <a href="#projects" class="
         nav__link--anchor
         link__hover-effect
         link__hover-effect--black
@@ -42,7 +42,7 @@
  
     </li>
     <li class="nav__link click" onclick="toggleModal()">
-        <a href="#" class="
+        <a href="#contact" class="
         nav__link--anchor
         link__hover-effect
         link__hover-effect--black
@@ -59,19 +59,26 @@
     </li>
 </ul>
 </nav>
+
+
 <header class="header">
     <div class="header__content">
-       
-
-            
-     
+        
+        
+        
+        
         <h1 class="title">Hey <span class="wave">👋</span> </h1>
         <h1 class="title main__blue">I'm Jamar! </h1> 
-     
-    <p class="header__para">I'm a <b class="main__blue">Frontend Software Engineer</b> with a passion for creating engaging applications and user experiences.
-        <br>
-    Here's a little bit more <b class="main__blue click" onclick="toggleModal()">about me </b>
-</p>
+        
+        <p class="header__para">I'm a <b class="main__blue">Frontend Software Engineer</b> with a passion for creating engaging applications and user experiences.
+            <br>
+            Here's a little bit more <b class="main__blue click" onclick="toggleModal()">about me </b>
+        </p>
+        <div class="about-picture--container">
+            <figure class="about-me__picture--mask">
+                <img src="./assets/assets/picOfMe3.PNG" alt=" picture of me" class="about-me__picture">
+            </figure>
+        </div>
 <div class="social__list">
     <a href="#" target="_blank" class=" social__link click">
        <i class="fab fa-linkedin-in"> </i>
